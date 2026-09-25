@@ -12,7 +12,7 @@ export const About = () => {
         <section style={{ padding: '20px', textAlign: 'center', backgroundColor: '#1e1e1e', color: 'white' }}>
             <h2>Sobre mí</h2>
             <p>
-                Hola, soy estudiante de la Tecnicatura Universitaria en Programación en la UTN, me gusta mucho la tecnologia en general y el desarrollo web en particular. Me considero una persona curiosa y autodidacta, siempre buscando aprender nuevas tecnologías y mejorar mis habilidades de programación.
+                Hola! soy estudiante de la Tecnicatura Universitaria en Programación en la UTN, me gusta mucho la tecnologia en general y el desarrollo web en particular. Me considero una persona curiosa y autodidacta, siempre buscando aprender nuevas tecnologías y mejorar mis habilidades de programación.
             </p>
 
 
