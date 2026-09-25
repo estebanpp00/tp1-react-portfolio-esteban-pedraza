@@ -1,16 +1,19 @@
-# React + Vite
+# Portfolio React - Trabajo Práctico Nº 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Estudiante:** Esteban Daniel Pedraza
+**Carrera:** Tecnicatura Universitaria en Programación (UTN - FRT)
 
-Currently, two official plugins are available:
+## Descripción
+Este proyecto es un portfolio personal desarrollado como primer trabajo práctico integrador. El objetivo es demostrar la aplicación de los conceptos fundamentales de React: creación de componentes reutilizables, uso de JSX, comunicación mediante props, eventos, renderizado dinámico con arrays y map(), y manejo del estado e interfaz con useState.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías Utilizadas
+* React
+* Vite
+* JavaScript
+* CSS (Estilos en línea integrados)
 
-## React Compiler
+## Instrucciones para instalar las dependencias
+Para probar este proyecto en un entorno local, primero clona el repositorio y luego instala las dependencias ejecutando el siguiente comando en la terminal:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
