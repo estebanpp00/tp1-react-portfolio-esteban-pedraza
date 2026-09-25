@@ -9,15 +9,27 @@ export const Projects = () => {
     ];
 
     return (
-        <section style={{ padding: '20px', textAlign: 'center', backgroundColor: '#1e1e1e', color: 'white' }}>
-            <h2>Mis Proyectos</h2>
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
+        <section style={{ padding: '60px 20px', textAlign: 'center', backgroundColor: '#0f0f12', borderTop: '1px solid #222' }}>
+            <h2 style={{ color: '#fff', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '30px' }}>Mis Proyectos</h2>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '25px', flexWrap: 'wrap' }}>
 
 
                 {proyectos.map((proyecto) => (
-                    <div key={proyecto.id} style={{ border: '1px solid #444', padding: '15px', borderRadius: '8px', width: '250px' }}>
-                        <h3>{proyecto.nombre}</h3>
-                        <p style={{ fontSize: '14px', color: '#ccc' }}>{proyecto.descripcion}</p>
+                    <div
+                        key={proyecto.id}
+                        style={{
+                            backgroundColor: '#16161a',
+                            border: '1px solid #333',
+                            borderLeft: '4px solid #ffcc00', /* Detalle amarillo lateral */
+                            padding: '20px',
+                            borderRadius: '6px',
+                            width: '280px',
+                            textAlign: 'left',
+                            boxShadow: '0 4px 6px rgba(0,0,0,0.5)'
+                        }}
+                    >
+                        <h3 style={{ color: '#ffcc00', marginTop: '0', fontSize: '1.2rem' }}>{proyecto.nombre}</h3>
+                        <p style={{ fontSize: '15px', color: '#b0b0b0', lineHeight: '1.5', margin: '0' }}>{proyecto.descripcion}</p>
                     </div>
                 ))}
 
