@@ -1,19 +1,49 @@
-# Portfolio React - Trabajo Práctico Nº 1
+# Portfolio React Multipágina - Trabajo Práctico Nº 2
 
-**Estudiante:** Esteban Daniel Pedraza
-**Carrera:** Tecnicatura Universitaria en Programación (UTN - FRT)
+**Estudiante:** Esteban Daniel Pedraza  
+**Carrera:** Tecnicatura Universitaria en Programación (UTN - FRT)  
+**Comisión:** 5
+**Repositorio:** [github.com/estebanpp00/tp1-react-portfolio](https://github.com/estebanpp00/tp1-react-portfolio)
 
-## Descripción
-Este proyecto es un portfolio personal desarrollado como primer trabajo práctico integrador. El objetivo es demostrar la aplicación de los conceptos fundamentales de React: creación de componentes reutilizables, uso de JSX, comunicación mediante props, eventos, renderizado dinámico con arrays y map(), y manejo del estado e interfaz con useState.
+## Descripción del Proyecto
+Este proyecto es la continuación y evolución del TP1. Se transformó el portfolio personal en una **aplicación web multipágina (SPA - Single Page Application)** estructurada en un Layout de 30% (menú lateral) y 70% (área principal), permitiendo la navegación entre distintas vistas sin recargar la página gracias a **React Router DOM**.
 
-## Tecnologías Utilizadas
-* React
-* Vite
-* JavaScript
-* CSS (Estilos en línea integrados)
+##  Tecnologías Utilizadas
+- **React JS** 
+- **Vite** 
+- **React Router DOM** 
+- **JavaScript**
+- **CSS** 
 
-## Instrucciones para instalar las dependencias
-Para probar este proyecto en un entorno local, primero clona el repositorio y luego instala las dependencias ejecutando el siguiente comando en la terminal:
+## 🛠️ Requisitos e Instalación Paso a Paso
 
+### Prerrequisitos
+Asegurarse de tener instalado en su equipo:
+- [Node.js](https://nodejs.org/) (versión 16 o superior)
+- [Git](https://git-scm.com/)
+
+### Paso a paso para ejecutar localmente
+
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/estebanpp00/tp1-react-portfolio.git
+```
+
+2. Ingresar a la carpeta del proyecto:
+```bash
+cd tp1-react-portfolio
+```
+
+3. Instalar las dependencias del proyecto:
 ```bash
 npm install
+```
+
+4. Ejecutar el servidor de desarrollo:
+```bash
+npm run dev
+```
+
+5. Abrir el navegador:
+Ingresá a la dirección local que indique la consola en la terminal (habitualmente `http://localhost:5173/`).
+   
