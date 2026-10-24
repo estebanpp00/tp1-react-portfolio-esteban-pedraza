@@ -15,7 +15,38 @@ const Sidebar = () => {
                             Inicio
                         </NavLink>
                     </li>
-
+                    <li style={{ marginBottom: '15px' }}>
+                        <NavLink
+                            to="/about"
+                            style={({ isActive }) => ({ color: isActive ? '#ffcc00' : '#fff', textDecoration: 'none' })}
+                        >
+                            Sobre mí
+                        </NavLink>
+                    </li>
+                    <li style={{ marginBottom: '15px' }}>
+                        <NavLink
+                            to="/skills"
+                            style={({ isActive }) => ({ color: isActive ? '#ffcc00' : '#fff', textDecoration: 'none' })}
+                        >
+                            Habilidades
+                        </NavLink>
+                    </li>
+                    <li style={{ marginBottom: '15px' }}>
+                        <NavLink
+                            to="/projects"
+                            style={({ isActive }) => ({ color: isActive ? '#ffcc00' : '#fff', textDecoration: 'none' })}
+                        >
+                            Proyectos
+                        </NavLink>
+                    </li>
+                    <li style={{ marginBottom: '15px' }}>
+                        <NavLink
+                            to="/contact"
+                            style={({ isActive }) => ({ color: isActive ? '#ffcc00' : '#fff', textDecoration: 'none' })}
+                        >
+                            Contacto
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </aside>
