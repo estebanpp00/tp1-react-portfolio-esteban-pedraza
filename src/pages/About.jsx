@@ -9,7 +9,7 @@ export const About = () => {
 
     return (
         <section style={{ padding: '40px 20px', textAlign: 'center', backgroundColor: '#141416', color: '#d1d1d1' }}>
-            <h2 style={{ color: '#ffcc00', textTransform: 'uppercase' }}>Sobre mí</h2>
+            <h2 style={{ color: '#fff', textTransform: 'uppercase' }}>Sobre mí</h2>
             <p style={{ maxWidth: '700px', margin: '0 auto', lineHeight: '1.6' }}>
                Hola! soy estudiante de la Tecnicatura Universitaria en Programación en la UTN, me gusta mucho la tecnologia en general y el desarrollo web en particular. Me considero una persona curiosa y autodidacta, siempre buscando aprender nuevas tecnologías y mejorar mis habilidades de programación.
             </p>
