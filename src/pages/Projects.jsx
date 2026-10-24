@@ -20,7 +20,7 @@ export const Projects = () => {
                         style={{
                             backgroundColor: '#16161a',
                             border: '1px solid #333',
-                            borderLeft: '4px solid #ffcc00', /* Detalle amarillo lateral */
+                            borderLeft: '4px solid #ffcc00',
                             padding: '20px',
                             borderRadius: '6px',
                             width: '280px',

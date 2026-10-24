@@ -1,4 +1,4 @@
-export const Hero = () => {
+export const Home = () => {
   return (
     <section style={{ padding: '80px 20px', textAlign: 'center', backgroundColor: '#050506', borderBottom: '1px solid #333' }}>
       <h2 style={{ fontSize: '3rem', margin: '0 0 20px 0', color: '#ffcc00', textTransform: 'uppercase', letterSpacing: '2px', textShadow: '0 2px 10px rgba(255, 204, 0, 0.2)' }}>
