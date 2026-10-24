@@ -18,3 +18,18 @@ body {
   padding: 30px;
   box-sizing: border-box;
 }
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column;
+  }
+
+  .sidebar-container {
+    width: 100% !important;
+    min-height: auto !important;
+  }
+
+  .main-content {
+    width: 100% !important;
+    padding: 20px;
+  }
+}
