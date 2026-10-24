@@ -6,7 +6,7 @@ export const Home = () => {
       </h2>
       <p style={{ fontSize: '1.2rem', maxWidth: '650px', margin: '0 auto', color: '#a0a0a0', lineHeight: '1.8' }}>
         Soy un apasionado por la tecnología, enfocado en crear interfaces dinámicas utilizando React. 
-        Aquí podrás ver un poco de mi trabajo y habilidades.
+        Aquí vas a poder ver un poco de mi trabajo y habilidades.
       </p>
     </section>
   );
