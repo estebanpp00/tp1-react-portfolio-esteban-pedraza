@@ -1,4 +1,6 @@
+import { BrowserRoute, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
+import { Sidebar } from './components/Sidebar';
 import { Home } from './pages/Home';
 import { Skills } from './pages/Skills';
 import { About } from './pages/About';
@@ -7,23 +9,15 @@ import { Projects } from './pages/Projects';
 
 function App() {
   return (
-    <div style={{ fontFamily: 'system-ui, sans-serif', backgroundColor: '#0a0a0c', minHeight: '100vh', margin: 0, padding: 0, color: '#e0e0e0' }}>
-      <Header nombre="Esteban Daniel Pedraza" profesion="Desarrollador Web" />
+    <BrowserRoute>
+      <div style={{ display: 'flex', minHeight: '100vh', backgroundColor: '#0a0a0c', color: '#e0e0e0', fontFamily: 'system-ui, sans-serif' }}>
+        <Sidebar />
+        <main style={{ width: '70%', padding: '30px', boxSizing: 'border-box' }}>
 
-      <Home />
+        </main>
+      </div>
 
-      <About />
-
-      <Skills />
-
-      <Projects />
-
-      <Footer 
-        anio="2026" 
-        githubLink="https://github.com/estebanpp00" 
-        linkedinLink="https://www.linkedin.com/in/esteban-pedraza-82b938284/" 
-      />
-    </div>
+    </BrowserRoute>
   );
 }
 
